@@ -19,7 +19,7 @@ var articles=
                 </p>`
             },
  'article-two':{title:"article two gayu",
-             heading:"Article One",
+             heading:"Article two",
              date:"mar 17 2017",
              content:`<p>
                 </p>
@@ -30,7 +30,7 @@ var articles=
                       THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article...
                 </p>`}, 
  'article-three':{title:"article three gayu",
-             heading:"Article One",
+             heading:"Article three",
              date:"mar 17 2017",
              content:`<p>
                 </p>
