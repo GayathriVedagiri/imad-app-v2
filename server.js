@@ -28,7 +28,7 @@ var articles=
                 </p>
                  <p>
                       THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article...
-                </p>`},
+                </p>`}, 
  'article-three':{title:"article three gayu",
              heading:"Article One",
              date:"mar 17 2017",
