@@ -4,8 +4,9 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
-var articleone={title:"article one gayu",
+var articles=
+{
+ articleone:{title:"article one gayu",
              heading:"Article One",
              date:"mar 17 2017",
              content:`<p>
@@ -16,8 +17,30 @@ var articleone={title:"article one gayu",
                  <p>
                     THis is the content of my first article..THis is the content of my first article..THis is the content of my first article..THis is the content of my first article..THis is the content of my first article..THis is the content of my first article..
                 </p>`
-            };
- 
+            },
+ articletwo:{title:"article two gayu",
+             heading:"Article One",
+             date:"mar 17 2017",
+             content:`<p>
+                </p>
+                 <p>
+                    THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..
+                </p>
+                 <p>
+                      THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article..THis is the content of my second article...
+                </p>`},
+ articlethree:{title:"article three gayu",
+             heading:"Article One",
+             date:"mar 17 2017",
+             content:`<p>
+                </p>
+                 <p>
+                    THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..
+                </p>
+                 <p>
+                    THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..THis is the content of my third article..
+                </p>`}
+};
 function createtemplate(data)
 { var title=data.title;
   var date=data.date;
