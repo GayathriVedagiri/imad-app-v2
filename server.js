@@ -79,7 +79,7 @@ var htmltemplate=
 return htmltemplate;
 
 }    
-var counter=0;
+var counter = 0;
 app.get('/counter',function(req,res){
     counter=couunter + 1;
  res.send(counter.toString());
