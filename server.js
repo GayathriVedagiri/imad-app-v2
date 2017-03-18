@@ -79,8 +79,12 @@ var htmltemplate=
 return htmltemplate;
 
 }    
-
-
+var counter;
+app.get('/counter',function(req,res)
+{counter=couunter+1;
+ res.send(counter.toString())
+    
+});
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
